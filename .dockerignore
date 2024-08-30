@@ -1,0 +1,11 @@
+# Ignorar a pasta node_modules
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+.data
+
+# Ignorar diretórios de controle de versão
+.git
+

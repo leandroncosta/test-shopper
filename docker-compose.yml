@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+    db:
+        image: postgres:14-alpine
+        container_name: pg_db
+        restart: always
+        environment:
+            POSTGRES_DB: shopper
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: root
+        ports:
+            - 5433:5432
+        volumes:
+            - ./.data/postgresql/data:/var/lib/postgresql/data
+
+    app-api:
+        container_name: backend
+        build: .
+        ports:
+            - 3333:3333
+        depends_on:
+            - db
