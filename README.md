@@ -1,5 +1,5 @@
 
-#   API - Teste 
+  <h1> API - Teste </h1>
 
 
  <img src="https://img.shields.io/static/v1?label=Tipo&message=API&color=f4&labelColor=000000" alt="Exercicio" />
@@ -87,7 +87,6 @@ $  http://localhost:3333
 
 ### (Sem Docker) 💻
 
-##
 
 ### Requisitos:
 *Ter o [Nodejs](https://nodejs.org/en/) instalado na máquina + algum banco de dados rodando (necessário de alterarações na pasta /prisma)*
