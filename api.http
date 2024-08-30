@@ -1,1 +1,25 @@
-POST http://localhost:3333/upload/
+POST http://localhost:3333/upload
+
+   {
+   "image" : "base64",
+   "customer_code" : "2126",
+   "measure_datetime" : "2024-09-31T12:45:30Z",
+   "measure_type" : "WATER"
+}
+
+###
+
+GET http://localhost:3333/2126/list 
+
+###
+
+PATCH  http://localhost:3333/confirm
+
+{
+  "measure_uuid": "a6ee6621-8e3e-4c9c-920a-c320e5e419e5",
+ "confirmed_value": 200
+}
+
+
+
+
