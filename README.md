@@ -58,7 +58,7 @@ PATCH /confirm
 ### Requisitos:
 
 *Ter o [docker](https://www.docker.com/) instalado na sua máquina*
-#
+
 - Clonar repositório git
 ```
 $ git clone https://github.com/leandroncosta/test-shopper.git
@@ -87,11 +87,11 @@ $  http://localhost:3333
 
 ### (Sem Docker) 💻
 
----
+##
 
 ### Requisitos:
 *Ter o [Nodejs](https://nodejs.org/en/) instalado na máquina + algum banco de dados rodando (necessário de alterarações na pasta /prisma)*
-#
+
 
 - Clonar repositório git
 
@@ -125,7 +125,7 @@ $ npm run start
 ```
 $  http://localhost:3333
 ```
----
+
 ## Trechos de código
 
 ### docker-compose.yml
